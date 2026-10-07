@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="text.css">
+</head>
+<body>
+   <div class="fatherDiv">
+        
+    <!-- <img src="data:image/png;base64,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" alt="" width="100px"> -->
+    <div class="sign">
+            <button class="box1"><a href="https://identity.doordash.com/auth?client_id=1666519390426295040&intl=en-US&layout=consumer_web&prompt=none&redirect_uri=https%3A%2F%2Fwww.doordash.com%2Fpost-login%2F&response_type=code&scope=%2A&state=%2Fhome%7C%7C97fcdc65-bdf1-4835-bff8-65986b69f328&_gl=1*u9r1vp*_gcl_au*NTk2MzE1NzgxLjE3OTEzNTg1ODIuLS4tLjE3OTEzNTg1ODMuNDUwNDA2MzkyLjE3OTEzNTg1ODQuMTc5MTM1OTYzMg..&_ga=2.198350639.1639007265.1791358583-912530154.1791358583" class="sign-img1">Sign In</a></button>
+            <button class="box"><a href="https://identity.doordash.com/auth/user/signup?client_id=1666519390426295040&intl=en-US&layout=consumer_web&prompt=none&redirect_uri=https%3A%2F%2Fwww.doordash.com%2Fpost-login%2F&response_type=code&scope=%2A&state=%2Fhome%7C%7C97fcdc65-bdf1-4835-bff8-65986b69f328&_gl=1*u9r1vp*_gcl_au*NTk2MzE1NzgxLjE3OTEzNTg1ODIuLS4tLjE3OTEzNTg1ODMuNDUwNDA2MzkyLjE3OTEzNTg1ODQuMTc5MTM1OTYzMg..&_ga=2.198350639.1639007265.1791358583-912530154.1791358583" class="sign-img2">Sign Up</a></button>
+        </div>
+        <center class="enter">
+            <img src="data:image/jpeg;base64,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" alt="" width="200px" class="image">
+            <div class="fee">
+                <h1 class="">$0 DELIVERY FEE ON FIRST ORDER</h1>
+                <span class="app">Other fees apply</span>
+                
+                <p class="svg"><input type="text" placeholder="Enter delivery address" class="type"></p> 
+            </div>
+            <button class="for"><img src="https://icon-sets.iconify.design/akar-icons/person/" alt=""  width="30px">Sign in for saved address</button>
+            <button class="use">Use current Location</button>
+        </center>
+    </div>
+    <center>
+        <div class="hero">
+            <div>
+                <img src="https://cdn.doordash.com/media/consumer/home/landing/new/ScootScoot.svg" alt="">
+                <h3>Become a <br>Dasher</h3>
+                <p>As a delivery driver, make <br>money and work on your <br>schedule. Sign up in minutes.</p>
+                <a href="">Start earning ➔</a>
+            </div>
+            <div>
+                <img src="https://cdn.doordash.com/media/consumer/home/landing/new/Storefront.svg" alt="">
+                <h3>Become a <br>Merchant</h3>
+                <p>Attract new customers and <br>grow sales, starting with 0% <br>commissions for up to 30 days</p>
+                <a href="">Sign up for DoorDash ➔</a>
+            </div>
+            <div>
+                <img src="https://cdn.doordash.com/media/consumer/home/landing/new/iphone.svg" alt="" width="100px">
+                <h3>Get the best <br>DoorDash <br>experience</h3>
+                <p>Experience the best your <br>neighborhood has to offer, all <br>in one app.</p>
+                <a href="">Get the app ➔</a>
+            </div>
+        </div>
+
+        <div class="hero1">
+            <div class="you">
+                <h3 style="width: 150px;">Everything you <br>crave, delivered.</h3>
+                <p>Your favorite local restaurants</p>
+                <span>Get a slice of pizza or the whole pie delivered, or pick up house lo mein from the Chinese takeout spot you've been meaning to try.</p></span>
+                <p style="margin-top: 30px;"><button>Find restaurants</button></p>
+            </div>
+            <div>
+                <img src="https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/download_the_app_desktop.png" alt="" width="550px">
+            </div>
+        </div>
+        
+    </center>
+    
+</body>
+</html>
